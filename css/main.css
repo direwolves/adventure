@@ -1,0 +1,65 @@
+/* dealing with the character images/option */
+div.img-container {
+  width: 460px;
+  height: 460px;
+  border: 1px solid red;
+  float: left;
+  margin-left: 50px;
+  position: relative;
+}
+
+.char-class {
+  margin-left: 20px;
+  margin-top: 20px;
+  float: left;
+}
+
+.char-overlay-1 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.char-overlay-2 {
+  position: absolute;
+  top: 20px;
+  left: 240px;
+}
+
+.char-overlay-3 {
+  position: absolute;
+  top: 240px;
+  left: 20px;
+}
+
+.char-overlay-4 {
+  position: absolute;
+  top: 240px;
+  left: 240px;
+}
+
+.char-overlay-1:hover, .char-overlay-2:hover, 
+.char-overlay-3:hover, .char-overlay-4:hover {
+  opacity: .3;
+}
+
+.char-transition {
+  opacity: 0;
+  transition: 1s;
+}
+
+/* ---------------------------------- */
+
+div#main-text {
+  float: left;
+  border: 1px solid blue;
+  max-width: 450px;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+div.text-test{
+  display: none;
+  text-align: center;
+  margin-top: 200px;
+}
