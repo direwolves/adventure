@@ -1,9 +1,21 @@
+body {
+  font-family: 'Sofadi One';
+}
+
+h1 {
+  font-family: 'Uncial Antiqua';
+  font-size: 72px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
 /* dealing with the character images/option */
 div.img-container {
   width: 460px;
   height: 460px;
   border: 1px solid red;
   float: left;
+  margin-top: 30px;
   margin-left: 50px;
   position: relative;
 }
@@ -53,12 +65,16 @@ div.img-container {
 div#main-text {
   float: left;
   border: 1px solid blue;
-  max-width: 450px;
-  margin-left: 50px;
-  margin-top: 100px;
+  max-width: 600px;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
-div.text-test{
+p.scenario-text {
+  margin: 20px;
+}
+
+div.result-text{
   display: none;
   text-align: center;
   margin-top: 200px;
