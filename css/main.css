@@ -9,6 +9,11 @@ h1 {
   margin-top: 15px;
 }
 
+ul.progress-nav li {
+  display: inline;
+  list-style-type: none;
+  font-size: 0;
+}
 /* dealing with the character images/option */
 div.img-container {
   width: 460px;
@@ -78,4 +83,28 @@ div.result-text{
   display: none;
   text-align: center;
   margin-top: 200px;
+}
+
+@media all and (max-width: 414px){
+  img.char-class, h1 {
+    float: left;
+    clear: left;
+    width: 90%;
+  }
+
+  div#main-text, p.scenario-text {
+    width: 75%;
+
+  }
+  p.scenario-text {
+    margin: 0 auto;
+  }
+
+  div.img-container {
+    margin: 30px auto;
+    max-width: 300px;
+  }
+
+@media all and (min-width: 768px){
+  }
 }
