@@ -13,18 +13,25 @@ h1 {
   color: rgb(250, 133, 53);
 }
 
-ul.progress-nav {
-  list-style-type: none;
-  font-size: 0;
-  margin-top: 10px;
-  margin-left: 100px;
+div.prog-bar {
+    margin-top: 20px;
+    overflow: auto;
+    margin-left: 30px;
+    display: inline-block;
 }
 
-ul.progress-nav li {
-  display: inline;
-  margin-top: 15px;
+div.prog-tracker {
+  background: rgba(161, 161, 161, 0.2);
+  height: 20px;
+  width: 100px;
+  display: inline-block;
+  font-size: 10px;
+  float: left;
 }
 
+div.prog-advance {
+  background-color: rgb(37, 245, 148);
+}
 
 /* dealing with the character images/option */
 div.img-container {
@@ -36,7 +43,6 @@ div.img-container {
   text-align: center;
   font-family: 'Uncial Antiqua';
   color: rgb(62, 146, 204);
-
 }
 
 .char-class {
@@ -95,6 +101,7 @@ div#main-text {
   max-width: 650px;
   margin-left: 30px;
   margin-top: 20px;
+  background-color: rgba(0,0,0, 0.3);
 }
 
 p.scenario-text {
@@ -109,8 +116,8 @@ div.result-text {
   text-align: center;
   margin-top: 25px;
   color: rgb(33, 170, 255);
-  line-height: 1.2;
-  font-size: 24px;
+  line-height: 1;
+  font-size: 21px;
   text-shadow: 0px 2px 5px black;
 }
 
