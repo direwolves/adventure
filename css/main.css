@@ -1,28 +1,42 @@
 body {
   font-family: 'Sofadi One';
+  background-image: url('../images/MainBackground.jpg');
 }
+
+
 
 h1 {
   font-family: 'Uncial Antiqua';
   font-size: 72px;
   margin-left: 15px;
   margin-top: 15px;
+  color: rgb(250, 133, 53);
+}
+
+ul.progress-nav {
+  list-style-type: none;
+  font-size: 0;
+  margin-top: 10px;
+  margin-left: 100px;
 }
 
 ul.progress-nav li {
   display: inline;
-  list-style-type: none;
-  font-size: 0;
+  margin-top: 15px;
 }
+
+
 /* dealing with the character images/option */
 div.img-container {
   width: 460px;
   height: 460px;
-  border: 1px solid red;
   float: left;
-  margin-top: 30px;
   margin-left: 50px;
   position: relative;
+  text-align: center;
+  font-family: 'Uncial Antiqua';
+  color: rgb(62, 146, 204);
+
 }
 
 .char-class {
@@ -31,33 +45,41 @@ div.img-container {
   float: left;
 }
 
-.char-overlay-1 {
+p.char-overlay-1, p.char-overlay-2,
+p.char-overlay-3, p.char-overlay-4 {
   position: absolute;
+  width: 200px;
+  height: 200px;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 0px 2px 6px black;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+p.char-overlay-1 {
   top: 20px;
   left: 20px;
 }
 
-.char-overlay-2 {
-  position: absolute;
+p.char-overlay-2 {
   top: 20px;
   left: 240px;
 }
 
-.char-overlay-3 {
-  position: absolute;
+p.char-overlay-3 {
   top: 240px;
   left: 20px;
 }
 
-.char-overlay-4 {
-  position: absolute;
+p.char-overlay-4 {
   top: 240px;
   left: 240px;
 }
 
-.char-overlay-1:hover, .char-overlay-2:hover, 
-.char-overlay-3:hover, .char-overlay-4:hover {
-  opacity: .3;
+p.char-overlay-1:hover, p.char-overlay-2:hover, 
+p.char-overlay-3:hover, p.char-overlay-4:hover {
+  opacity: 1;
 }
 
 .char-transition {
@@ -69,20 +91,32 @@ div.img-container {
 
 div#main-text {
   float: left;
-  border: 1px solid blue;
-  max-width: 600px;
+  border: 5px ridge rgb(255, 0, 174);
+  max-width: 650px;
   margin-left: 30px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 p.scenario-text {
   margin: 20px;
+  color: rgb(255, 0, 174);
+  line-height: 1.5;
+  font-size: 17px;
 }
 
-div.result-text{
+div.result-text {
   display: none;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 25px;
+  color: rgb(33, 170, 255);
+  line-height: 1.2;
+  font-size: 24px;
+  text-shadow: 0px 2px 5px black;
+}
+
+p.text-container {
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 @media all and (max-width: 414px){
@@ -97,7 +131,7 @@ div.result-text{
 
   }
   p.scenario-text {
-    margin: 0 auto;
+    margin: 0 auto; 
   }
 
   div.img-container {
