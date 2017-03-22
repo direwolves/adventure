@@ -3,14 +3,31 @@ body {
   background-image: url('../images/MainBackground.jpg');
 }
 
+div.header {
+  position: relative;
+/*  border: 1px solid white;
+*/}
 
-
-h1 {
+h1, h2, h3 {
   font-family: 'Uncial Antiqua';
   font-size: 72px;
   margin-left: 15px;
   margin-top: 15px;
-  color: rgb(250, 133, 53);
+  color: rgb(222, 13, 146);
+}
+
+h2 {
+  position: absolute;
+  top: -12px;
+  left: 6px;
+  color: rgb(149, 9, 82);
+}
+
+h3 {
+  position: absolute;
+  top: -12px;
+  left: 2px;
+  color: rgb(175, 43, 191);
 }
 
 div.prog-bar {
@@ -30,7 +47,7 @@ div.prog-tracker {
 }
 
 div.prog-advance {
-  background-color: rgb(37, 245, 148);
+  background-color: rgb(250, 133, 53);
 }
 
 /* dealing with the character images/option */
@@ -118,7 +135,7 @@ div.result-text {
   color: rgb(33, 170, 255);
   line-height: 1;
   font-size: 21px;
-  text-shadow: 0px 2px 5px black;
+  text-shadow: 0px 2px 6px black;
 }
 
 p.text-container {
