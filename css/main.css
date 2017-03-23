@@ -50,8 +50,33 @@ div.prog-tracker {
   float: left;
 }
 
+div.prog-success {
+  background-color: rgb(250, 133, 53);
+  height: 20px;
+  width: 175px;
+  display: inline-block;
+  font-size: 10px;
+}
 div.prog-advance {
   background-color: rgb(250, 133, 53);
+  height: 20px;
+  width: 175px;
+  display: inline-block;
+  font-size: 10px;
+  animation-duration: 2s;
+  animation-name: progress;
+  animation-iteration-count: 1;
+
+}
+
+@keyframes progress {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 100%;
+  }
 }
 
 /* dealing with the character images/option */
