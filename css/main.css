@@ -5,7 +5,7 @@ body {
 
 div.header {
   position: relative;
-  cursor: pointer;
+  cursor: default;
 }
 
 .header a {
@@ -44,7 +44,7 @@ div.prog-wrapper {
 div.prog-tracker {
   background: rgba(161, 161, 161, 0.2);
   height: 20px;
-  width: 175px;
+  width: 155px;
   display: inline-block;
   font-size: 10px;
   float: left;
@@ -53,14 +53,14 @@ div.prog-tracker {
 div.prog-success {
   background-color: rgb(250, 133, 53);
   height: 20px;
-  width: 175px;
+  width: 155px;
   display: inline-block;
   font-size: 10px;
 }
 div.prog-advance {
   background-color: rgb(250, 133, 53);
   height: 20px;
-  width: 175px;
+  width: 155px;
   display: inline-block;
   font-size: 10px;
   animation-duration: 2s;
@@ -89,6 +89,7 @@ div.img-container {
   text-align: center;
   font-family: 'Uncial Antiqua';
   color: rgb(62, 146, 204);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .char-class {
@@ -143,11 +144,12 @@ p.char-overlay-3:hover, p.char-overlay-4:hover {
 
 div#main-text {
   float: left;
-  border: 5px ridge rgb(255, 0, 174);
+  border: 5px ridge #3e92cc;
   max-width: 650px;
   margin-left: 30px;
   margin-top: 20px;
-  background-color: rgba(0,0,0, 0.3);
+  background-color: rgba(0,0,0, 0.5);
+  cursor: default;
 }
 
 p.scenario-text {
