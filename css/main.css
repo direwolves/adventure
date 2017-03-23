@@ -231,7 +231,7 @@ button.end-button-reset, button.end-button-alt {
   color: #de0d92;
   text-decoration: none;
 }
-/*@media all and (max-width: 414px){
+@media all and (max-width: 414px){
   img.char-class, h1 {
     float: left;
     clear: left;
@@ -249,4 +249,4 @@ button.end-button-reset, button.end-button-alt {
   div.img-container {
     margin: 30px auto;
     max-width: 300px;
-  }*/
+  }
