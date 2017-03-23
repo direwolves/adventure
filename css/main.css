@@ -6,7 +6,10 @@ body {
 div.header {
   position: relative;
   cursor: pointer;
-  
+}
+
+.header a {
+  text-decoration: none;
 }
 
 h1, h2, h3 {
@@ -31,7 +34,7 @@ h3 {
   color: rgb(175, 43, 191);
 }
 
-div.prog-bar {
+div.prog-wrapper {
     margin-top: 20px;
     overflow: auto;
     margin-left: 30px;
@@ -41,7 +44,7 @@ div.prog-bar {
 div.prog-tracker {
   background: rgba(161, 161, 161, 0.2);
   height: 20px;
-  width: 200px;
+  width: 175px;
   display: inline-block;
   font-size: 10px;
   float: left;

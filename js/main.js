@@ -62,8 +62,6 @@ var classFour = document.getElementById('img-choice-4');
 			event.preventDefault();
 			window.location.href = "/Users/SeanXavierHallion/Sites/adventure/index.html"
 		});		
-
-	}
-
+	};
 
 }); // closes doc.ready
