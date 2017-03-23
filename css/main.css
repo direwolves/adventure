@@ -5,8 +5,9 @@ body {
 
 div.header {
   position: relative;
-/*  border: 1px solid white;
-*/}
+  cursor: pointer;
+  
+}
 
 h1, h2, h3 {
   font-family: 'Uncial Antiqua';
@@ -143,7 +144,66 @@ p.text-container {
   margin: 0 auto;
 }
 
-@media all and (max-width: 414px){
+button.wrong-choice, button.right-choice {
+  background-color: #fa8535;
+  padding: 6px;
+  border: 0;
+  font-family: 'Uncial Antiqua';
+  font-size: 21px;
+  cursor: pointer; 
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.wrong-choice a, .right-choice a,
+.wrong-choice:visited, .right-choice a:visited {
+  text-decoration: none;
+  color: #950952;
+}
+
+.right-choice a:hover, .right-choice a:active {
+  text-decoration: none;
+  color: #de0d92;
+}
+
+.wrong-choice a:hover, .wrong-choice a:active,
+button.wrong-choice:hover, button.wrong-choice:active {
+  text-decoration: none;
+  color: white;
+  background-color: red;
+}
+
+button.end-button-reset, button.end-button-alt {
+  background-color: black;
+  padding: 6px;
+  border: 0;
+  font-family: 'Uncial Antiqua';
+  font-size: 21px;
+  cursor: pointer; 
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.end-button-reset a, .end-button-reset a:visited {
+  color: #950952;
+  text-decoration: none;
+}
+
+.end-button-alt a, .end-button-alt a:visited {
+  color: #af2bbf;
+  text-decoration: none;
+}
+
+.end-button-reset a:hover, .end-button-reset a:active {
+  color: #de0d92;
+  text-decoration: none;
+}
+
+.end-button-alt a:hover, .end-button-alt a:active {
+  color: #de0d92;
+  text-decoration: none;
+}
+/*@media all and (max-width: 414px){
   img.char-class, h1 {
     float: left;
     clear: left;
@@ -161,8 +221,4 @@ p.text-container {
   div.img-container {
     margin: 30px auto;
     max-width: 300px;
-  }
-
-@media all and (min-width: 768px){
-  }
-}
+  }*/

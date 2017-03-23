@@ -58,6 +58,7 @@ var classFour = document.getElementById('img-choice-4');
 	var wrongChoice = document.getElementsByClassName('wrong-choice');
 		for (var i = 0; i < wrongChoice.length; i++){
 		wrongChoice[i].addEventListener('click', function(event){
+			console.log('change the color')
 			event.preventDefault();
 			window.location.href = "/Users/SeanXavierHallion/Sites/adventure/index.html"
 		});		
